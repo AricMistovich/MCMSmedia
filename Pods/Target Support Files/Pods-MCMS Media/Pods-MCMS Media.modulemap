@@ -1,0 +1,6 @@
+framework module Pods_MCMS_Media {
+  umbrella header "Pods-MCMS Media-umbrella.h"
+
+  export *
+  module * { export * }
+}

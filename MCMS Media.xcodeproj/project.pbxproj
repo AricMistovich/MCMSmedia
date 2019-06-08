@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3281532022A4955100414C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3281531F22A4955100414C9D /* AppDelegate.swift */; };
+		3281532222A4955100414C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3281532122A4955100414C9D /* ViewController.swift */; };
+		3281532522A4955100414C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3281532322A4955100414C9D /* Main.storyboard */; };
+		3281532A22A4955200414C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3281532922A4955200414C9D /* Assets.xcassets */; };
+		3281532D22A4955200414C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3281532B22A4955200414C9D /* LaunchScreen.storyboard */; };
+		3281533522A496AA00414C9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3281533422A496AA00414C9D /* GoogleService-Info.plist */; };
+		A3631F5C1BD8A0CE68E9DF78 /* Pods_MCMS_Media.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79325206D0DECFA21A00550D /* Pods_MCMS_Media.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EE0353F386F6AAC46CE6B82 /* Pods-MCMS Media.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCMS Media.release.xcconfig"; path = "Target Support Files/Pods-MCMS Media/Pods-MCMS Media.release.xcconfig"; sourceTree = "<group>"; };
+		3281531C22A4955100414C9D /* MCMS Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCMS Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3281531F22A4955100414C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3281532122A4955100414C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3281532422A4955100414C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3281532922A4955200414C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3281532C22A4955200414C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3281532E22A4955200414C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3281533422A496AA00414C9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79325206D0DECFA21A00550D /* Pods_MCMS_Media.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCMS_Media.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6485D86BCC5A2A399BA49B6 /* Pods-MCMS Media.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCMS Media.debug.xcconfig"; path = "Target Support Files/Pods-MCMS Media/Pods-MCMS Media.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3281531922A4955100414C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3631F5C1BD8A0CE68E9DF78 /* Pods_MCMS_Media.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10337CCCABBF2D1046383DEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79325206D0DECFA21A00550D /* Pods_MCMS_Media.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20A1A5F1CAD6043FC8D24D15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6485D86BCC5A2A399BA49B6 /* Pods-MCMS Media.debug.xcconfig */,
+				2EE0353F386F6AAC46CE6B82 /* Pods-MCMS Media.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3281531322A4955100414C9D = {
+			isa = PBXGroup;
+			children = (
+				3281531E22A4955100414C9D /* MCMS Media */,
+				3281531D22A4955100414C9D /* Products */,
+				20A1A5F1CAD6043FC8D24D15 /* Pods */,
+				10337CCCABBF2D1046383DEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3281531D22A4955100414C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3281531C22A4955100414C9D /* MCMS Media.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3281531E22A4955100414C9D /* MCMS Media */ = {
+			isa = PBXGroup;
+			children = (
+				3281531F22A4955100414C9D /* AppDelegate.swift */,
+				3281532122A4955100414C9D /* ViewController.swift */,
+				3281532322A4955100414C9D /* Main.storyboard */,
+				3281532922A4955200414C9D /* Assets.xcassets */,
+				3281532B22A4955200414C9D /* LaunchScreen.storyboard */,
+				3281532E22A4955200414C9D /* Info.plist */,
+				3281533422A496AA00414C9D /* GoogleService-Info.plist */,
+			);
+			path = "MCMS Media";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3281531B22A4955100414C9D /* MCMS Media */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3281533122A4955200414C9D /* Build configuration list for PBXNativeTarget "MCMS Media" */;
+			buildPhases = (
+				2B037C35FFF337B2F621C996 /* [CP] Check Pods Manifest.lock */,
+				3281531822A4955100414C9D /* Sources */,
+				3281531922A4955100414C9D /* Frameworks */,
+				3281531A22A4955100414C9D /* Resources */,
+				273C22D0CE83AFF0AE1480F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MCMS Media";
+			productName = "MCMS Media";
+			productReference = 3281531C22A4955100414C9D /* MCMS Media.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3281531422A4955100414C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Aric Mistovich";
+				TargetAttributes = {
+					3281531B22A4955100414C9D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3281531722A4955100414C9D /* Build configuration list for PBXProject "MCMS Media" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3281531322A4955100414C9D;
+			productRefGroup = 3281531D22A4955100414C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3281531B22A4955100414C9D /* MCMS Media */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3281531A22A4955100414C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3281532D22A4955200414C9D /* LaunchScreen.storyboard in Resources */,
+				3281533522A496AA00414C9D /* GoogleService-Info.plist in Resources */,
+				3281532A22A4955200414C9D /* Assets.xcassets in Resources */,
+				3281532522A4955100414C9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		273C22D0CE83AFF0AE1480F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCMS Media/Pods-MCMS Media-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCMS Media/Pods-MCMS Media-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MCMS Media/Pods-MCMS Media-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B037C35FFF337B2F621C996 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCMS Media-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3281531822A4955100414C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3281532222A4955100414C9D /* ViewController.swift in Sources */,
+				3281532022A4955100414C9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3281532322A4955100414C9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3281532422A4955100414C9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3281532B22A4955200414C9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3281532C22A4955200414C9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3281532F22A4955200414C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3281533022A4955200414C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3281533222A4955200414C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6485D86BCC5A2A399BA49B6 /* Pods-MCMS Media.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQM94DCCZH;
+				INFOPLIST_FILE = "MCMS Media/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AricMistovich.MCMS-Media";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3281533322A4955200414C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE0353F386F6AAC46CE6B82 /* Pods-MCMS Media.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQM94DCCZH;
+				INFOPLIST_FILE = "MCMS Media/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AricMistovich.MCMS-Media";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3281531722A4955100414C9D /* Build configuration list for PBXProject "MCMS Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3281532F22A4955200414C9D /* Debug */,
+				3281533022A4955200414C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3281533122A4955200414C9D /* Build configuration list for PBXNativeTarget "MCMS Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3281533222A4955200414C9D /* Debug */,
+				3281533322A4955200414C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3281531422A4955100414C9D /* Project object */;
+}
